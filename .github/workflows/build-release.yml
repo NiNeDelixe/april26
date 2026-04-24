@@ -65,7 +65,7 @@ jobs:
         id: latest_tag
         shell: bash
         run: |
-          tag=$(git describe --tags --abbrev=0 origin/main)
+          tag=$(git describe --tags --always --abbrev=0 origin/main)
           if [ -z "$tag" ]; then
             echo "Latest tag not found, likely the first time this script has been ran. " && exit 1
           else
