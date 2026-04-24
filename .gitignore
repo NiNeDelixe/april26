@@ -27,6 +27,7 @@ build/
 !pakku.jar
 !pakku.json
 !pakku-lock.json
+!.pakku/client-overrides/*
 
 # Node.js
 **/node_modules/
