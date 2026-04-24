@@ -427,41 +427,41 @@ jobs:
         with:
           name: ${{ needs.info.outputs.project_file_name }}-curseforge
           path: ./build/curseforge/${{ needs.info.outputs.project_file_name }}-curseforge.zip
+          if-no-files-found: warn
+
+      - name: Preparing the modrinth artifact 
+        run: |
+          cd ./build/modrinth/
+          mv *.mrpack $(basename -s .mrpack *.mrpack)-modrinth.mrpack
+
+      - name: Upload artifact to modrinth
+        uses: actions/upload-artifact@v4.6.2
+        with:
+          name: ${{ needs.info.outputs.project_file_name }}-modrinth
+          path: ./build/modrinth/${{ needs.info.outputs.project_file_name }}-modrinth.mrpack
           if-no-files-found: error
 
-      # - name: Preparing the modrinth artifact 
-      #   run: |
-      #     cd ./build/modrinth/
-      #     mv *.mrpack $(basename -s .mrpack *.mrpack)-modrinth.mrpack
+      - name: Preparing the multimc artifact
+        run: |
+          mkdir -p .pakku/multimc-overrides/flame
+          mkdir -p .pakku/multimc-overrides/mods
 
-      # - name: Upload artifact to modrinth
-      #   uses: actions/upload-artifact@v4.6.2
-      #   with:
-      #     name: ${{ needs.info.outputs.project_file_name }}-modrinth
-      #     path: ./build/modrinth/${{ needs.info.outputs.project_file_name }}-modrinth.mrpack
-      #     if-no-files-found: warn
+          mv -vf .pakku/multimc-overrides ./build/multimc
 
-      # - name: Preparing the multimc artifact
-      #   run: |
-      #     mkdir -p .pakku/multimc-overrides/flame
-      #     mkdir -p .pakku/multimc-overrides/mods
+          cp -vf ./build/.cache/curseforge/manifest.json ./build/multimc/flame/manifest.json
 
-      #     mv -vf .pakku/multimc-overrides ./build/multimc
+          cp -rf ./build/.cache/curseforge/overrides ./build/multimc/.minecraft
+          cp -rf ./mods ./build/multimc/.minecraft/
 
-      #     cp -vf ./build/.cache/curseforge/manifest.json ./build/multimc/flame/manifest.json
-
-      #     cp -rf ./build/.cache/curseforge/overrides ./build/multimc/.minecraft
-      #     cp -rf ./mods ./build/multimc/.minecraft/
-
-      #     cd ./build/multimc/
-      #     zip -r ${{ needs.info.outputs.project_file_name }}-multimc.zip icon.png mmc-pack.json instance.cfg .minecraft/ flame/
+          cd ./build/multimc/
+          zip -r ${{ needs.info.outputs.project_file_name }}-multimc.zip icon.png mmc-pack.json instance.cfg .minecraft/ flame/
       
-      # - name: Upload the multimc artifact
-      #   uses: actions/upload-artifact@v4.6.2
-      #   with:
-      #     name: ${{ needs.info.outputs.project_file_name }}-multimc
-      #     path: ./build/multimc/${{ needs.info.outputs.project_file_name }}-multimc.zip
-      #     if-no-files-found: error
+      - name: Upload the multimc artifact
+        uses: actions/upload-artifact@v4.6.2
+        with:
+          name: ${{ needs.info.outputs.project_file_name }}-multimc
+          path: ./build/multimc/${{ needs.info.outputs.project_file_name }}-multimc.zip
+          if-no-files-found: error
 
       - name: Preparing the server artifact
         run: |
