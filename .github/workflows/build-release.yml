@@ -428,7 +428,7 @@ jobs:
           curl https://github.com/juraj-hrivnak/pakku/releases/latest/download/pakku.jar -o pakku.jar -L -J
           java -jar pakku.jar fetch
           java -jar pakku.jar export
-
+          
           mkdir -p .pakku/multimc-overrides/flame
           mkdir -p .pakku/multimc-overrides/mods
           
@@ -476,28 +476,30 @@ jobs:
         run: |
           mkdir -p .pakku/multimc-overrides/flame
           mkdir -p .pakku/multimc-overrides/mods
-
+          
           mv -vf .pakku/multimc-overrides ./build/multimc
-
-          # Check if curseforge manifest exists before copying
-          if [ ! -f ./build/.cache/curseforge/manifest.json ]; then
-            echo "Warning: CurseForge manifest not found at ./build/.cache/curseforge/manifest.json"
-            echo "Available files in ./build/.cache:"
-            find ./build/.cache -type f 2>/dev/null | head -20
-            exit 1
-          fi
-
-          cp -vf ./build/.cache/curseforge/manifest.json ./build/multimc/flame/manifest.json
-
-          if [ -d ./build/.cache/curseforge/overrides ]; then
-            cp -rf ./build/.cache/curseforge/overrides ./build/multimc/.minecraft
+          
+          # Check if curseforge export was generated
+          if [ -f ./build/.cache/curseforge/manifest.json ]; then
+            cp -vf ./build/.cache/curseforge/manifest.json ./build/multimc/flame/manifest.json
+            
+            if [ -d ./build/.cache/curseforge/overrides ]; then
+              cp -rf ./build/.cache/curseforge/overrides ./build/multimc/.minecraft
+            else
+              echo "Warning: CurseForge overrides directory not found"
+              mkdir -p ./build/multimc/.minecraft
+            fi
           else
-            echo "Warning: CurseForge overrides directory not found"
+            echo "Warning: CurseForge export not found - using Modrinth export as fallback"
             mkdir -p ./build/multimc/.minecraft
+            
+            if [ -d ./build/.cache/modrinth/overrides ]; then
+              cp -rf ./build/.cache/modrinth/overrides ./build/multimc/.minecraft
+            fi
           fi
           
           cp -rf ./mods ./build/multimc/.minecraft/
-
+          
           cd ./build/multimc/
           zip -r ${{ needs.info.outputs.project_file_name }}-multimc.zip icon.png mmc-pack.json instance.cfg .minecraft/ flame/
       
