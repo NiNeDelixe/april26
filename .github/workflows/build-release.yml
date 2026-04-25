@@ -363,15 +363,22 @@ jobs:
             )' .pakku/prism-overrides/mmc-pack.json > temp.json
           mv temp.json .pakku/prism-overrides/mmc-pack.json
 
-      - name: Commit changes (if any)
-        run: |
-          if ! git diff --quiet .pakku/prism-overrides/mmc-pack.json; then
-            git config --local user.email "action@github.com"
-            git config --local user.name "GitHub Action"
-            git add .pakku/prism-overrides/mmc-pack.json
-            git commit -m "Updated mmc-pack.json to Minecraft ${{ needs.info.outputs.mc_version }} on ${{ needs.info.outputs.loader_type }} ${{ needs.info.outputs.loader_version }}"
-            git push
-          fi
+      # - name: Commit changes (if any)
+      #   run: |
+      #     if ! git diff --quiet .pakku/prism-overrides/mmc-pack.json; then
+      #       git config --local user.email "action@github.com"
+      #       git config --local user.name "GitHub Action"
+      #       git add .pakku/prism-overrides/mmc-pack.json
+      #       git commit -m "Updated mmc-pack.json to Minecraft ${{ needs.info.outputs.mc_version }} on ${{ needs.info.outputs.loader_type }} ${{ needs.info.outputs.loader_version }}"
+      #       git push
+      #     fi
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v10
+        with:
+          add: ".pakku/prism-overrides/mmc-pack.json"
+          message: "Updated mmc-pack.json to Minecraft ${{ needs.info.outputs.mc_version }} on ${{ needs.info.outputs.loader_type }} ${{ needs.info.outputs.loader_version }}"
+          default_author: github_actions
 
   build-project:
     name: Build Project
@@ -419,27 +426,37 @@ jobs:
 
       - name: Preparing the curseforge artifact
         run: |
-          cd ./build/curseforge/
-          mv *.zip "$(basename -s .zip *.zip)-curseforge.zip"
-          
+          if [ -d "./build/curseforge/" ]; then
+            cd ./build/curseforge/
+            mv *.zip "$(basename -s .zip *.zip)-curseforge.zip"
+          else
+            echo "Directory ./build/curseforge/ not found, skipping"
+          fi
+
       - name: Upload artifact CurseForge
+        if: ${{ hashFiles('build/curseforge/*.zip') != '' }}
         uses: actions/upload-artifact@v4.6.2
         with:
           name: ${{ needs.info.outputs.project_file_name }}-curseforge
           path: ./build/curseforge/${{ needs.info.outputs.project_file_name }}-curseforge.zip
           if-no-files-found: warn
 
-      - name: Preparing the modrinth artifact 
+      - name: Preparing the modrinth artifact
         run: |
-          cd ./build/modrinth/
-          mv *.mrpack $(basename -s .mrpack *.mrpack)-modrinth.mrpack
+          if [ -d "./build/modrinth/" ]; then
+            cd ./build/modrinth/
+            mv *.mrpack "$(basename -s .mrpack *.mrpack)-modrinth.mrpack"
+          else
+            echo "Directory ./build/modrinth/ not found, skipping"
+          fi
 
       - name: Upload artifact to modrinth
+        if: ${{ hashFiles('build/modrinth/*.mrpack') != '' }}
         uses: actions/upload-artifact@v4.6.2
         with:
           name: ${{ needs.info.outputs.project_file_name }}-modrinth
           path: ./build/modrinth/${{ needs.info.outputs.project_file_name }}-modrinth.mrpack
-          if-no-files-found: error
+          if-no-files-found: warn
 
       - name: Preparing the multimc artifact
         run: |
@@ -461,7 +478,7 @@ jobs:
         with:
           name: ${{ needs.info.outputs.project_file_name }}-multimc
           path: ./build/multimc/${{ needs.info.outputs.project_file_name }}-multimc.zip
-          if-no-files-found: error
+          if-no-files-found: warn
 
       - name: Preparing the server artifact
         run: |
