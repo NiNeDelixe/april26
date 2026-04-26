@@ -1,9 +1,7 @@
-<p align="center"><img src="https://media.forgecdn.net/avatars/798/822/638160732420962168.png" height="250" alt="Logo"></p>
-<h1 align="center">PanPack</h1>
-<p align="center"><b><i>A template for the modern modpacker, featuring automatic mod updating, autolinting, build/release scripts, simple setup and more.</i></b></p>
+<h1 align="center">April2026</h1>
+<p align="center"><b><i>Minecaraft modpack with aeronautics</i></b></p>
 <h1 align="center">
     <a href="https://github.com/ThePansmith/PanPack/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/ThePansmith/PanPack?style=for-the-badge&logo=github" alt="License"></a>
-    <a href="https://discord.com/invite/zwQzqP8b6q"><img src="https://img.shields.io/discord/927050775073534012?style=for-the-badge&logo=discord&color=5865F2&labelColor=grey&label=+" alt="Discord"></a>
 </h1>
 
 ## Features
@@ -38,6 +36,10 @@
 * This template was written with [Prism Launcher](https://prismlauncher.org/) in mind. Those using other launchers will need to adjust setup instructions as needed to allow their launcher to recognize the template as an instance. Launchers without the ability to set prelaunch commands will need to fetch mods manually (see below).
 
 ## Setup
+### Configure api keys
+1. Getting [curseforge api key](https://console.curseforge.com/#/api-keys) in https://console.curseforge.com/#/
+2. Add curseforge api key by command [`java -jar pakku.jar credentials set --cf-api-key <curseforge_api_key>`](https://juraj-hrivnak.github.io/Pakku/pakku-credentials-set.html)
+
 ### As a template 
 1. Clone your copy of this template into an empty [`(instancename)\minecraft`](https://github.com/user-attachments/assets/f9de6554-925d-4827-b51c-c7159e6f915f) folder
 2. Copy the contents of `(instancename)\minecraft\.pakku\prism-overrides`[^2] into your `(instancename)` folder to have a working [Prism Instance](https://prismlauncher.org/).[^3]
@@ -50,6 +52,10 @@ By default, the pack comes with a set of mods most packdevs find useful (optimiz
 2. Clone the panpack template somewhere, copy over everything but `pakku-lock.json` (and `.gitattributes` and .git folder, of course)
 3. Open up your terminal, [change directory](https://www.wikihow.com/images/thumb/0/08/Change-Directories-in-Command-Prompt-Step-7-Version-2.jpg/v4-460px-Change-Directories-in-Command-Prompt-Step-7-Version-2.jpg.webp) to your instance's `/minecraft/` folder, and run [`java -jar pakku.jar import <file from step 1>`](https://juraj-hrivnak.github.io/Pakku/managing-projects.html#adding-projects)
 4. Edit `minecraft/pakku.json`, and `minecraft/.pakku/prism-overrides/` as applicable, and add `java -jar pakku.jar fetch` to your instance's [prelaunch commands](https://github.com/user-attachments/assets/494a632d-1af4-453d-9329-5454ac3d22da)
+
+### Importing into other launcher
+1. Start `java -jar pakku.jar export` in repository
+2. Import into your launcher [`.mrpack`](./build/modrinth/) as modrinth modpack or [`.zip`](./build/curseforge/) as curseforge modpack in [`./build`](./build/) folder
 
 Don't forget to link to this page in your README so contributors will know how to set up their own instance!
 

@@ -1,5 +1,5 @@
 {
-    "target": "modrinth",
+    "target": "multiplatform",
     "mc_versions": [
         "1.21.1"
     ],
@@ -2026,6 +2026,42 @@
             ]
         },
         {
+            "pakku_id": "n3JIz6IqucBCtXh7",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-tracks"
+            },
+            "name": {
+                "curseforge": "Create: Tracks"
+            },
+            "id": {
+                "curseforge": "1519765"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "tracks-neoforge-1.21.1-1.0.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7968/280/tracks-neoforge-1.21.1-1.0.1.jar",
+                    "id": "7968280",
+                    "parent_id": "1519765",
+                    "hashes": {
+                        "sha1": "cccd208606d7ac33f483e1e8a237092712a1a2c0",
+                        "md5": "8e9bf934f8640125c5532c02b77f9da6"
+                    },
+                    "required_dependencies": [],
+                    "size": 166455,
+                    "date_published": "2026-04-22T18:05:33.493Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "mu65kinHJgidNDbL",
             "type": "MOD",
             "side": "CLIENT",
@@ -2215,6 +2251,44 @@
                     "required_dependencies": [],
                     "size": 410690,
                     "date_published": "2025-05-14T13:34:47.415840Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "v6C78UjafnlOo0xI",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "distanthorizons"
+            },
+            "name": {
+                "modrinth": "Distant Horizons"
+            },
+            "id": {
+                "modrinth": "uCdwusMi"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "DistantHorizons-3.0.2-b-1.21.1-fabric-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/KkaaQtTD/DistantHorizons-3.0.2-b-1.21.1-fabric-neoforge.jar",
+                    "id": "KkaaQtTD",
+                    "parent_id": "uCdwusMi",
+                    "hashes": {
+                        "sha512": "dc69b30efd3192a39209d35fa785ea39f92a18a1f7ef1361e9d52cebed055f99834944dbf33b102f14c39c6091cfe4b3fd7b4effda77a3436cecf395f02bb754",
+                        "sha1": "1ff0a8920e52add541471f7b32d0d389997145ba"
+                    },
+                    "required_dependencies": [],
+                    "size": 30019727,
+                    "date_published": "2026-04-24T12:11:05.782745Z"
                 }
             ]
         },
