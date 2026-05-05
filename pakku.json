@@ -51,6 +51,22 @@
         "probejs": {
             "side": "CLIENT",
             "export": false
+        },
+        "spark": {
+            "side": "BOTH",
+            "export": false
+        },
+        "distanthorizons": {
+            "side": "CLIENT"
+        },
+        "server_heater": {
+            "side": "SERVER"
+        },
+        "noisium": {
+            "side": "SERVER"
+        },
+        "aero_cam_syn": {
+            "side": "CLIENT"
         }
     }
 }

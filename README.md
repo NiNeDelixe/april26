@@ -85,6 +85,10 @@ Also, ensure that your pakku.json has the following variables:
     "release_type": "alpha", // or beta, or release. This one is used to tell curseforge the release type.
 ```
 
+```
+-XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled -XX:ParallelGCThreads=6 -XX:+PerfDisableSharedMem -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+UseZGC
+```
+
 ## Usage
 * To initate a release, update `CHANGELOG.MD` with a new version, [Unreleased] can be used as a staging ground for changes.
    * [Unreleased] changes are included in the changelog for builds created from the dev branch.
