@@ -66,6 +66,9 @@
         },
         "aero_cam_syn": {
             "side": "CLIENT"
+        },
+        "geckolib": {
+            "side": "BOTH"
         }
     },
     "export_server_side_projects_to_client": true

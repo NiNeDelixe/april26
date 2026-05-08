@@ -2167,6 +2167,77 @@
             ]
         },
         {
+            "pakku_id": "NbDwx6XpxFmgTq91",
+            "pakku_links": [
+                "uCug40WTt1XzBPC8",
+                "wfblntGXRxaHX4gM"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "create-aeroworks",
+                "modrinth": "create-aeroworks"
+            },
+            "name": {
+                "curseforge": "Create: Aeroworks",
+                "modrinth": "Create: Aeroworks"
+            },
+            "id": {
+                "curseforge": "1522473",
+                "modrinth": "P26k79kP"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "aeroworks-1.2.8.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8046/657/aeroworks-1.2.8.jar",
+                    "id": "8046657",
+                    "parent_id": "1522473",
+                    "hashes": {
+                        "sha1": "e8b81ae7bb944ff9b5162c0217b077558f32939e",
+                        "md5": "08d33ca5fa77f6c0ca328a82dd108115"
+                    },
+                    "required_dependencies": [
+                        "328085",
+                        "1312371"
+                    ],
+                    "size": 173274,
+                    "date_published": "2026-05-06T05:35:33.803Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "aeroworks-1.2.8.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/P26k79kP/versions/ern7qOZC/aeroworks-1.2.8.jar",
+                    "id": "ern7qOZC",
+                    "parent_id": "P26k79kP",
+                    "hashes": {
+                        "sha512": "8691f2d0cdc25b733b91fc4c21f5464627522fdc57857b0f584b0590aca3af074098b8761066da125f08e7e86504bbc51a14a971083bf7ba9265117f2a6356ad",
+                        "sha1": "b04b4bbad01abce50152054007e287af20dea3c5"
+                    },
+                    "required_dependencies": [
+                        "T9PomCSv",
+                        "LNytGWDc"
+                    ],
+                    "size": 173274,
+                    "date_published": "2026-05-06T05:35:26.042694Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "HxQAfIn0hVgANT98",
             "pakku_links": [
                 "uCug40WTt1XzBPC8"
@@ -4406,7 +4477,7 @@
         {
             "pakku_id": "ykJ2mDwixdeJMSXA",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "geckolib"
             },
@@ -5039,6 +5110,77 @@
             ]
         },
         {
+            "pakku_id": "lllb9HW6WjYpwlOb",
+            "pakku_links": [
+                "XGJFhRricOj3xyhl",
+                "FbhFDh3KpK5KVGDC"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "just-enough-mekanism-multiblocks",
+                "modrinth": "just-enough-mekanism-multiblocks"
+            },
+            "name": {
+                "curseforge": "Just Enough Mekanism Multiblocks",
+                "modrinth": "Just Enough Mekanism Multiblocks"
+            },
+            "id": {
+                "curseforge": "898746",
+                "modrinth": "kRaE85yQ"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "JustEnoughMekanismMultiblocks-1.21.1-7.15.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7921/149/JustEnoughMekanismMultiblocks-1.21.1-7.15.jar",
+                    "id": "7921149",
+                    "parent_id": "898746",
+                    "hashes": {
+                        "sha1": "160c5d10059c5f98bac91f46ef9cc287fa12a964",
+                        "md5": "942f1f93a73be5ec0f7590b477458706"
+                    },
+                    "required_dependencies": [
+                        "268560",
+                        "238222"
+                    ],
+                    "size": 185493,
+                    "date_published": "2026-04-13T14:41:36.683Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "JustEnoughMekanismMultiblocks-1.21.1-7.7.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/kRaE85yQ/versions/g0Exmy3H/JustEnoughMekanismMultiblocks-1.21.1-7.7.jar",
+                    "id": "g0Exmy3H",
+                    "parent_id": "kRaE85yQ",
+                    "hashes": {
+                        "sha512": "32cb1705b832cadc569c88d3aed11202d27d0d458ff2b88b70c46ccd832d112d7b3f25a8598e4c5533c07a73aa4ca17033d6245b15282b26bdb4988bffa40855",
+                        "sha1": "ff4e9eded15a0118f3cf1182cab2d1cd137d89af"
+                    },
+                    "required_dependencies": [
+                        "Ce6I4WUE",
+                        "u6dRKJwZ"
+                    ],
+                    "size": 137612,
+                    "date_published": "2025-04-25T06:19:04.390177Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "GBCYKU7QgJ91guho",
             "type": "MOD",
             "side": "CLIENT",
@@ -5493,6 +5635,347 @@
             ]
         },
         {
+            "pakku_id": "izPzmP34ezXs6uo1",
+            "pakku_links": [
+                "XGJFhRricOj3xyhl"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "mekanism-additions",
+                "modrinth": "mekanism-additions"
+            },
+            "name": {
+                "curseforge": "Mekanism Additions",
+                "modrinth": "Mekanism Additions"
+            },
+            "id": {
+                "curseforge": "345425",
+                "modrinth": "a6F3uASn"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "MekanismAdditions-1.21.1-10.7.19.85.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7904/60/MekanismAdditions-1.21.1-10.7.19.85.jar",
+                    "id": "7904060",
+                    "parent_id": "345425",
+                    "hashes": {
+                        "sha1": "0934a9f9961a9a1a47ff344762f8eeb0c149d80d",
+                        "md5": "94cc2df24bfc527e518559ee01f683b8"
+                    },
+                    "required_dependencies": [
+                        "268560"
+                    ],
+                    "size": 1162551,
+                    "date_published": "2026-04-10T10:30:13.473Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "MekanismAdditions-1.21.1-10.7.19.85.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/a6F3uASn/versions/6mkdykZa/MekanismAdditions-1.21.1-10.7.19.85.jar",
+                    "id": "6mkdykZa",
+                    "parent_id": "a6F3uASn",
+                    "hashes": {
+                        "sha512": "6bdd4b00d19f316c7486ec27e78fe1204427fea4ad1c15c13a395956c4d1d7eb7f55438f0399b623820eae02fa5a690cece6cbb57c1b5923e1185c389bf0ddb7",
+                        "sha1": "0934a9f9961a9a1a47ff344762f8eeb0c149d80d"
+                    },
+                    "required_dependencies": [
+                        "Ce6I4WUE"
+                    ],
+                    "size": 1162551,
+                    "date_published": "2026-04-10T10:30:39.973006Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "sH5aRLNWS2qAOd5Z",
+            "pakku_links": [
+                "XGJFhRricOj3xyhl"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "mekanism-covers",
+                "modrinth": "mekanism-covers"
+            },
+            "name": {
+                "curseforge": "Mekanism Covers",
+                "modrinth": "Mekanism Covers"
+            },
+            "id": {
+                "curseforge": "1119874",
+                "modrinth": "E3sGVcD8"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "mekanismcovers-1.3-BETA+1.21.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/6071/684/mekanismcovers-1.3-BETA+1.21.jar",
+                    "id": "6071684",
+                    "parent_id": "1119874",
+                    "hashes": {
+                        "sha1": "1cfb68fcc9b833af7b992024943dc1e8d45799af",
+                        "md5": "c05aeea91f08f10c7c2f0a3512dc03e0"
+                    },
+                    "required_dependencies": [],
+                    "size": 136513,
+                    "date_published": "2025-01-10T08:19:50.353Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "mekanismcovers-1.3-BETA+1.21.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/E3sGVcD8/versions/89QaQ0n0/mekanismcovers-1.3-BETA+1.21.jar",
+                    "id": "89QaQ0n0",
+                    "parent_id": "E3sGVcD8",
+                    "hashes": {
+                        "sha512": "d9a295c83dc79bcfe550b171e7dc1d5be9dbddf9047f9b843e52e083a3a3e62b3a660b346a8fa582d49ed618bad53403d3e8d01fd71694f11428eebdfca6b8b3",
+                        "sha1": "1cfb68fcc9b833af7b992024943dc1e8d45799af"
+                    },
+                    "required_dependencies": [
+                        "Ce6I4WUE"
+                    ],
+                    "size": 136513,
+                    "date_published": "2025-01-10T08:20:28.475321Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "qCqBzvffkzSU1Kne",
+            "pakku_links": [
+                "XGJFhRricOj3xyhl",
+                "oNaxqLaW9oj3Vbe6"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "mekanism-curios",
+                "modrinth": "mekanism-curios"
+            },
+            "name": {
+                "curseforge": "Mekanism Curios",
+                "modrinth": "Mekanism Curios"
+            },
+            "id": {
+                "curseforge": "1251061",
+                "modrinth": "uKJX4EfN"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "mekanismcurios-1.21.1-1.2.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6602/973/mekanismcurios-1.21.1-1.2.1.jar",
+                    "id": "6602973",
+                    "parent_id": "1251061",
+                    "hashes": {
+                        "sha1": "652371b8622d60d8d4d9528493095beb0c903aa8",
+                        "md5": "81b979183a575f0fdc6b076825d9f08e"
+                    },
+                    "required_dependencies": [
+                        "268560",
+                        "309927"
+                    ],
+                    "size": 99159,
+                    "date_published": "2025-05-31T20:53:54.530Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "mekanismcurios-1.21.1-1.2.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/uKJX4EfN/versions/SCc0MUEv/mekanismcurios-1.21.1-1.2.1.jar",
+                    "id": "SCc0MUEv",
+                    "parent_id": "uKJX4EfN",
+                    "hashes": {
+                        "sha512": "af917277e4dc8a7ccb8765b38eb7f8abbee4527181c6dec837e3e96751c5eb6257e7294ee25c2aefc134154b2eb6da497695553735823e9ea77329a9d8ae7a0a",
+                        "sha1": "652371b8622d60d8d4d9528493095beb0c903aa8"
+                    },
+                    "required_dependencies": [
+                        "Ce6I4WUE",
+                        "vvuO3ImH"
+                    ],
+                    "size": 99159,
+                    "date_published": "2025-05-31T20:54:15.852735Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "7T152sDtMvIUX94y",
+            "pakku_links": [
+                "XGJFhRricOj3xyhl"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "mekanism-generators",
+                "modrinth": "mekanism-generators"
+            },
+            "name": {
+                "curseforge": "Mekanism Generators",
+                "modrinth": "Mekanism Generators"
+            },
+            "id": {
+                "curseforge": "268566",
+                "modrinth": "OFVYKsAk"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "MekanismGenerators-1.21.1-10.7.19.85.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7904/61/MekanismGenerators-1.21.1-10.7.19.85.jar",
+                    "id": "7904061",
+                    "parent_id": "268566",
+                    "hashes": {
+                        "sha1": "44c4d8006597580ff7e4101b5a22f7b426cdcaf6",
+                        "md5": "1ccb5604857497903e330488a3871f0e"
+                    },
+                    "required_dependencies": [
+                        "268560"
+                    ],
+                    "size": 1114598,
+                    "date_published": "2026-04-10T10:30:13.873Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "MekanismGenerators-1.21.1-10.7.19.85.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/OFVYKsAk/versions/a6gl7srE/MekanismGenerators-1.21.1-10.7.19.85.jar",
+                    "id": "a6gl7srE",
+                    "parent_id": "OFVYKsAk",
+                    "hashes": {
+                        "sha512": "6c3d5b7ea2f67f43c3d169c97de2855a7085f38019cf426e015ccc8ca9bc4f66e96b1cdf4a9afdc92bef7b2e236f16c81415ed5e48736805d5961d29525316d6",
+                        "sha1": "44c4d8006597580ff7e4101b5a22f7b426cdcaf6"
+                    },
+                    "required_dependencies": [
+                        "Ce6I4WUE"
+                    ],
+                    "size": 1114598,
+                    "date_published": "2026-04-10T10:30:36.558660Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "d5UIlDGzXM7jZYR2",
+            "pakku_links": [
+                "XGJFhRricOj3xyhl"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "mekanism-tools",
+                "modrinth": "mekanism-tools"
+            },
+            "name": {
+                "curseforge": "Mekanism Tools",
+                "modrinth": "Mekanism Tools"
+            },
+            "id": {
+                "curseforge": "268567",
+                "modrinth": "tqQpq1lt"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "MekanismTools-1.21.1-10.7.19.85.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7904/62/MekanismTools-1.21.1-10.7.19.85.jar",
+                    "id": "7904062",
+                    "parent_id": "268567",
+                    "hashes": {
+                        "sha1": "4433b3eec0a5a0bf415d873e710a1cecea5850bc",
+                        "md5": "b2531705f53c5eedb6412b06aa8781d6"
+                    },
+                    "required_dependencies": [
+                        "268560"
+                    ],
+                    "size": 526620,
+                    "date_published": "2026-04-10T10:30:14.270Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "MekanismTools-1.21.1-10.7.19.85.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/tqQpq1lt/versions/v5zlSE9s/MekanismTools-1.21.1-10.7.19.85.jar",
+                    "id": "v5zlSE9s",
+                    "parent_id": "tqQpq1lt",
+                    "hashes": {
+                        "sha512": "0dccc47efbb9e3bf3b7df886cefff4a6b9a3f683bf0df3e54409dc3a4c6459eef95ce0af93adf345b868e5b7dcb7a2bb0af68f0a94acfa69975bfbb278e4902f",
+                        "sha1": "4433b3eec0a5a0bf415d873e710a1cecea5850bc"
+                    },
+                    "required_dependencies": [
+                        "Ce6I4WUE"
+                    ],
+                    "size": 526620,
+                    "date_published": "2026-04-10T10:30:33.347485Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "y6BLndcZ48fqomzc",
             "type": "MOD",
             "side": "BOTH",
@@ -5646,6 +6129,74 @@
                     "required_dependencies": [],
                     "size": 1573067,
                     "date_published": "2026-05-04T11:42:11.348173Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "F7h7vVfBoOQ0NaPI",
+            "pakku_links": [
+                "XGJFhRricOj3xyhl"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "more-mekanism-processing",
+                "modrinth": "more-mekanism-processing"
+            },
+            "name": {
+                "curseforge": "More Mekanism Processing",
+                "modrinth": "More Mekanism Processing"
+            },
+            "id": {
+                "curseforge": "511965",
+                "modrinth": "fVa04tKz"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "MoreMekanismProcessing-1.21.1-6.8.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7609/590/MoreMekanismProcessing-1.21.1-6.8.jar",
+                    "id": "7609590",
+                    "parent_id": "511965",
+                    "hashes": {
+                        "sha1": "f4dbb8c2307f3ff6ca31229068ea0243659a5c7e",
+                        "md5": "2b227a00583c4e354118f5e1c3b98c41"
+                    },
+                    "required_dependencies": [
+                        "268560"
+                    ],
+                    "size": 712991,
+                    "date_published": "2026-02-11T14:34:49.177Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "MoreMekanismProcessing-1.21.1-6.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/fVa04tKz/versions/VvkdSVU7/MoreMekanismProcessing-1.21.1-6.4.jar",
+                    "id": "VvkdSVU7",
+                    "parent_id": "fVa04tKz",
+                    "hashes": {
+                        "sha512": "fdf9151cda2606625848d32fa0bbd01bcb4db7f53cc9a5526faf1a6d374e70fca913e59591bcadc599364ca9722200a737eab4382b8678936a613976916b962e",
+                        "sha1": "9ceb1b599a0e7fddb65b01207bd0ce90bfe02ba9"
+                    },
+                    "required_dependencies": [
+                        "Ce6I4WUE"
+                    ],
+                    "size": 619913,
+                    "date_published": "2025-03-14T08:39:24.623712Z"
                 }
             ]
         },
