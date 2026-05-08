@@ -1,7 +1,6 @@
 {
     "name": "april26",
     "version": "DEV",
-    "release_type": "alpha",
     "description": "A template pack",
     "author": "Pansmith",
     "overrides": [
@@ -51,6 +50,23 @@
         "probejs": {
             "side": "CLIENT",
             "export": false
+        },
+        "spark": {
+            "side": "BOTH",
+            "export": false
+        },
+        "distanthorizons": {
+            "side": "CLIENT"
+        },
+        "server_heater": {
+            "side": "SERVER"
+        },
+        "noisium": {
+            "side": "SERVER"
+        },
+        "aero_cam_syn": {
+            "side": "CLIENT"
         }
-    }
+    },
+    "export_server_side_projects_to_client": true
 }

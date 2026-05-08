@@ -544,13 +544,16 @@ jobs:
         shell: bash
         run: |
           if [ ! -f ${{ needs.info.outputs.project_file_name }}-curseforge.zip ]; then
-            echo '::error::No value found for artifact `curseforge.zip`.' && exit 1
+            echo '::warning::No value found for artifact `curseforge.zip`.'
+            if [ ! -f ${{ needs.info.outputs.project_file_name }}-modrinth.mrpack ]; then
+              echo '::warning::No value found for artifact `modrinth.mrpack`.' && exit 1
+            fi
           fi
-          # if [ ! -f ${{ needs.info.outputs.project_file_name }}-modrinth.mrpack ]; then
-          #   echo '::error::No value found for artifact `modrinth.mrpack`.' && exit 1
-          # fi
+          if [ ! -f ${{ needs.info.outputs.project_file_name }}-modrinth.mrpack ]; then
+            echo '::warning::No value found for artifact `modrinth.mrpack`.' && exit 1
+          fi
           if [ ! -f ${{ needs.info.outputs.project_file_name }}-serverpack.zip ]; then
-            echo '::error::No value found for artifact `serverpack.zip`.' && exit 1
+            echo '::warning::No value found for artifact `serverpack.zip`.' && exit 1
           fi
           echo "All artifacts found"
 
