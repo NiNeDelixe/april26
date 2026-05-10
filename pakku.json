@@ -56,7 +56,7 @@
             "export": false
         },
         "distanthorizons": {
-            "side": "CLIENT"
+            "side": "BOTH"
         },
         "server_heater": {
             "side": "SERVER"
