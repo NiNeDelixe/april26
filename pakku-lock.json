@@ -319,7 +319,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "animated-items 1.21.x-26.1.x - v1.6.2.zip",
+                    "file_name": "animated-items 1.21.x-26.1.x - v1.6.3.zip",
                     "mc_versions": [
                         "1.21",
                         "1.21.1",
@@ -341,16 +341,16 @@
                         "minecraft"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/uBBepXuH/versions/WUHkWIRV/animated-items 1.21.x-26.1.x - v1.6.2.zip",
-                    "id": "WUHkWIRV",
+                    "url": "https://cdn.modrinth.com/data/uBBepXuH/versions/DKsjwVmd/animated-items 1.21.x-26.1.x - v1.6.3.zip",
+                    "id": "DKsjwVmd",
                     "parent_id": "uBBepXuH",
                     "hashes": {
-                        "sha512": "6b9f6ecf6d9993b08547c1526cfc68c02fdd7cb29cbb396f9633e8ed2d67fb892d2479d7c569a62c523f7ca0fa541f4014a0b9eff445fdc4ad79e34e5a7cd651",
-                        "sha1": "e4211c587f125e349f872ff29ed7df9d5aa133a1"
+                        "sha512": "bcff3c2a90241a56ffb8e4a8f79be82669a8ae402d670f37ef0fb3a6e193bcab6e6c3634df7900c0f9f15170c5f57d00975d2e9cfb2c35b38050ea29c970fa01",
+                        "sha1": "4c3fe2cf722c885ab55cf9c636a93933ce7cb48c"
                     },
                     "required_dependencies": [],
-                    "size": 1773480,
-                    "date_published": "2026-05-03T20:52:37.061642Z"
+                    "size": 1783689,
+                    "date_published": "2026-05-10T09:18:20.902962Z"
                 }
             ]
         },
@@ -1925,7 +1925,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "create_mekanism_compat-0.1.6.jar",
+                    "file_name": "create_mekanism_compat-0.1.7.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -1933,16 +1933,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8063/823/create_mekanism_compat-0.1.6.jar",
-                    "id": "8063823",
+                    "url": "https://edge.forgecdn.net/files/8066/500/create_mekanism_compat-0.1.7.jar",
+                    "id": "8066500",
                     "parent_id": "1536749",
                     "hashes": {
-                        "sha1": "dcb9b8cd019e0b3528875aa78a6d7644ef97ac22",
-                        "md5": "14f41ecd066f1ee120f24cbdb60d7144"
+                        "sha1": "0a63bd6b2e4bda450e7b1afe174f4f303ef69220",
+                        "md5": "81ff33ee7ebe7ae10f86c2224a2d9df9"
                     },
                     "required_dependencies": [],
-                    "size": 79635,
-                    "date_published": "2026-05-09T15:59:13.257Z"
+                    "size": 80690,
+                    "date_published": "2026-05-10T03:59:17.453Z"
                 }
             ]
         },
@@ -3231,6 +3231,68 @@
                     "required_dependencies": [],
                     "size": 410690,
                     "date_published": "2025-05-14T13:34:47.415840Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "cAb1VSvqMMA0JMKp",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "death-keeper",
+                "modrinth": "death-keeper"
+            },
+            "name": {
+                "curseforge": "Death Keeper - Grave Stones",
+                "modrinth": "Death Keeper - Grave Stones"
+            },
+            "id": {
+                "curseforge": "1495054",
+                "modrinth": "6pKePRpb"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "death_keeper-1.0b.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7848/467/death_keeper-1.0b.jar",
+                    "id": "7848467",
+                    "parent_id": "1495054",
+                    "hashes": {
+                        "sha1": "e923deaef77c84fe184eb18fef27dd953e4de031",
+                        "md5": "bf9e1eb90e6c1492ec9f53744bc758f9"
+                    },
+                    "required_dependencies": [],
+                    "size": 44125,
+                    "date_published": "2026-03-31T00:27:51.827Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "death_keeper-1.0b.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/6pKePRpb/versions/fwQHyyJk/death_keeper-1.0b.jar",
+                    "id": "fwQHyyJk",
+                    "parent_id": "6pKePRpb",
+                    "hashes": {
+                        "sha512": "9d2df394ee90675e4a71f1f77df6c21095cab1790984d78b8b448bada0979416c2199e11ebf621c17a5a9fadbe862d5e2b8c1f7161b383b895d820d6c6be3069",
+                        "sha1": "e923deaef77c84fe184eb18fef27dd953e4de031"
+                    },
+                    "required_dependencies": [],
+                    "size": 44125,
+                    "date_published": "2026-03-31T00:29:14.131234Z"
                 }
             ]
         },
@@ -4745,6 +4807,48 @@
                     "required_dependencies": [],
                     "size": 4267528,
                     "date_published": "2024-12-04T14:16:21.607450Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "j4S0dzLLOEL7KNJb",
+            "pakku_links": [
+                "WJeUJ822tM9ZiQPG"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "iris"
+            },
+            "name": {
+                "modrinth": "Iris Shaders"
+            },
+            "id": {
+                "modrinth": "YL57xq9U"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "iris-neoforge-1.8.12+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/t3ruzodq/iris-neoforge-1.8.12+mc1.21.1.jar",
+                    "id": "t3ruzodq",
+                    "parent_id": "YL57xq9U",
+                    "hashes": {
+                        "sha512": "57b8026a3c3c433cf6123d63dc6ce7e11f6d480a72926370db1fc7f2b06059bc16a753ecd7e7af659c19e90b592103196b0e89585ce4f0744a4ca433f59bcf1a",
+                        "sha1": "a3e6355915c7d3b2bc392724795113e51d289378"
+                    },
+                    "required_dependencies": [
+                        "AANobbMI"
+                    ],
+                    "size": 2438548,
+                    "date_published": "2025-06-17T15:51:56.477905Z"
                 }
             ]
         },
@@ -6699,7 +6803,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "refinedstorage-neoforge-2.0.5.jar",
+                    "file_name": "refinedstorage-neoforge-2.0.6.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -6707,16 +6811,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/KDvYkUg3/versions/hVcXtoQ1/refinedstorage-neoforge-2.0.5.jar",
-                    "id": "hVcXtoQ1",
+                    "url": "https://cdn.modrinth.com/data/KDvYkUg3/versions/mvRwwdXI/refinedstorage-neoforge-2.0.6.jar",
+                    "id": "mvRwwdXI",
                     "parent_id": "KDvYkUg3",
                     "hashes": {
-                        "sha512": "1d1d2155def9d657de11bac17720e04f435d550a7c4f5139779c73501a8dcd13b3e2b51ed8c233610d9e855d8f157a419baef5532475f775ff9ca127466684c0",
-                        "sha1": "f2925658cdd5cbb6f8434ded3c94b13fa31be784"
+                        "sha512": "7d1fe6a294d609baf1391ed7d1b548862fcc883a323772fa4bc089d7704f38c31f010eccdc6419bdd6cbe85bd9bd7cf2448cbfe482a5435b4ff45822827b2b99",
+                        "sha1": "5c2d2a5e7560834d7662a9e6c771e4aec97027a2"
                     },
                     "required_dependencies": [],
-                    "size": 4511412,
-                    "date_published": "2026-04-30T18:53:10.840198Z"
+                    "size": 4354642,
+                    "date_published": "2026-05-10T10:48:33.840742Z"
                 }
             ]
         },
@@ -7496,6 +7600,67 @@
             ]
         },
         {
+            "pakku_id": "MphMBDqoVhL590Ee",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "sky-archipelago",
+                "modrinth": "sky-archipelago"
+            },
+            "name": {
+                "curseforge": "Sky Archipelago",
+                "modrinth": "Sky Archipelago"
+            },
+            "id": {
+                "curseforge": "1528077",
+                "modrinth": "sHFNUlBU"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Sky-Archipelago-1.2.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8036/577/Sky-Archipelago-1.2.2.jar",
+                    "id": "8036577",
+                    "parent_id": "1528077",
+                    "hashes": {
+                        "sha1": "88951cddc560f48b15c71a1955a4f133bb4ca45f",
+                        "md5": "2b9023b3bdf0c09eac81a3cb98b6def9"
+                    },
+                    "required_dependencies": [],
+                    "size": 371650,
+                    "date_published": "2026-05-04T07:28:56.020Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "sky_archipelago-1.2.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/sHFNUlBU/versions/Sr6avIdl/sky_archipelago-1.2.2.jar",
+                    "id": "Sr6avIdl",
+                    "parent_id": "sHFNUlBU",
+                    "hashes": {
+                        "sha512": "e2f46c0efebfd337a8c1922a62794169813c2d534bad618770f5b2e83d25c3e50f8641a4c42695e666f0771a0fd56be6071105e3f0a26c8ab78c88f73c4996d3",
+                        "sha1": "88951cddc560f48b15c71a1955a4f133bb4ca45f"
+                    },
+                    "required_dependencies": [],
+                    "size": 371650,
+                    "date_published": "2026-05-04T07:30:23.540458Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "leuV18Wx8dtv6rmw",
             "type": "MOD",
             "side": "CLIENT",
@@ -8065,7 +8230,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "surveyor-1.2.3+1.21.jar",
+                    "file_name": "surveyor-1.2.4+1.21.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -8075,19 +8240,19 @@
                         "quilt"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/4KjqhPc9/versions/u9km2NT8/surveyor-1.2.3+1.21.jar",
-                    "id": "u9km2NT8",
+                    "url": "https://cdn.modrinth.com/data/4KjqhPc9/versions/egJBsDTn/surveyor-1.2.4+1.21.jar",
+                    "id": "egJBsDTn",
                     "parent_id": "4KjqhPc9",
                     "hashes": {
-                        "sha512": "89526549f7e30c2290810f89a54d63d22a778e3ef53d35f3dd3b50ab021cbbd754ebae8c24961fbdfc55e822916f7f0e06fd3881d2b77225291292dfb8b1379a",
-                        "sha1": "e89bc7494596d83588dddc654281ddd5800954a4"
+                        "sha512": "3a91efbc596db7192792de069e814aeb3e9e1d771267ea5a5d4371b1311bef26a7f9bd02a28619026c23e4df702d99a1bbaaf732e06179dd4999dbd01aaf920c",
+                        "sha1": "77e9d3996c11eed104fe224c3ba706be1c759303"
                     },
                     "required_dependencies": [
-                        "tNmWwdI2",
-                        "P7dR8mSH"
+                        "P7dR8mSH",
+                        "tNmWwdI2"
                     ],
-                    "size": 602166,
-                    "date_published": "2026-04-14T08:45:40.759623Z"
+                    "size": 602264,
+                    "date_published": "2026-05-10T08:34:50.307485Z"
                 }
             ]
         },
