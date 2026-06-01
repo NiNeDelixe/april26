@@ -1915,7 +1915,6 @@
             "id": {
                 "curseforge": "1545370"
             },
-            "redistributable": true,
             "files": [
                 {
                     "type": "curseforge",
@@ -6688,7 +6687,7 @@
             ]
         },
         {
-            "pakku_id": "83bZCtNBYFuj54aA",
+            "pakku_id": "A1NLzZU9rbVojrOd",
             "pakku_links": [
                 "PxmuJCT7cxGHI23G"
             ],
@@ -6708,32 +6707,8 @@
             },
             "files": [
                 {
-                    "type": "modrinth",
-                    "file_name": "moreculling-neoforge-1.21.1-1.0.8.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "alpha",
-                    "url": "https://cdn.modrinth.com/data/51shyZVL/versions/tFPgktUw/moreculling-neoforge-1.21.1-1.0.8.jar",
-                    "id": "tFPgktUw",
-                    "parent_id": "51shyZVL",
-                    "hashes": {
-                        "sha512": "efc7e0bfeafe4a659540417796675b1ba8fd2cd4d4f3030a85c7cb675a065da6bd0bea9b79ce4e5bf3d13728f1a85c7c9e523567bfd569a415d92ac227d0b023",
-                        "sha1": "fdbfaa5d6d93a11d44020301199dac68de231649"
-                    },
-                    "required_dependencies": [
-                        "9s6osm5g"
-                    ],
-                    "size": 332875,
-                    "date_published": "2026-05-14T14:15:20.794934Z"
-                },
-                {
                     "type": "curseforge",
-                    "file_name": "moreculling-neoforge-1.21.1-1.0.8.jar",
+                    "file_name": "moreculling-neoforge-1.21.1-1.0.7.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -6741,19 +6716,43 @@
                     "loaders": [
                         "neoforge"
                     ],
-                    "release_type": "alpha",
-                    "url": "https://edge.forgecdn.net/files/8087/855/moreculling-neoforge-1.21.1-1.0.8.jar",
-                    "id": "8087855",
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7748/843/moreculling-neoforge-1.21.1-1.0.7.jar",
+                    "id": "7748843",
                     "parent_id": "630104",
                     "hashes": {
-                        "sha1": "fdbfaa5d6d93a11d44020301199dac68de231649",
-                        "md5": "d97e21d2b8af8da26b3e4e25ac8feb8e"
+                        "sha1": "834cc35294be3bb514bc0ba571ab7337961af383",
+                        "md5": "97f704f5fca2a00952f75abe78bac964"
                     },
                     "required_dependencies": [
                         "348521"
                     ],
-                    "size": 332875,
-                    "date_published": "2026-05-14T14:15:18.313Z"
+                    "size": 344279,
+                    "date_published": "2026-03-12T22:00:48.223Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "moreculling-neoforge-1.21.1-1.0.7.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/51shyZVL/versions/BvOuEhk4/moreculling-neoforge-1.21.1-1.0.7.jar",
+                    "id": "BvOuEhk4",
+                    "parent_id": "51shyZVL",
+                    "hashes": {
+                        "sha512": "c0a41b5a8238fcb21bc82cc31e09089f4659a567bcbb632fa033c36b5834a84420245cb54921b7787df38589ccf08783641e0a98c456a9b26dbdc1d2b9053619",
+                        "sha1": "834cc35294be3bb514bc0ba571ab7337961af383"
+                    },
+                    "required_dependencies": [
+                        "9s6osm5g"
+                    ],
+                    "size": 344279,
+                    "date_published": "2026-03-12T22:00:50.823788Z"
                 }
             ]
         },
