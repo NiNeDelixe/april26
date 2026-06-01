@@ -5266,6 +5266,49 @@
             ]
         },
         {
+            "pakku_id": "7WcjkmeCyOADFTue",
+            "pakku_links": [
+                "KPMX3qvLESDH4J0J",
+                "H5mCQDjhF1KKXCKF"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "irons-spells-n-spellbooks-aeronautics"
+            },
+            "name": {
+                "curseforge": "Iron's Spells 'n Spellbooks-Aeronautics Compatibility"
+            },
+            "id": {
+                "curseforge": "1544353"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ironssablecompat-1.0.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8110/412/ironssablecompat-1.0.3.jar",
+                    "id": "8110412",
+                    "parent_id": "1544353",
+                    "hashes": {
+                        "sha1": "732e9c723456af3cf6824fce75909a290a8e6944",
+                        "md5": "5a694e541ce603a3dc4587ae0d0d1a93"
+                    },
+                    "required_dependencies": [
+                        "676721",
+                        "855414"
+                    ],
+                    "size": 49558,
+                    "date_published": "2026-05-18T19:53:48.080Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "zRLaA2cRHIvAjb6N",
             "pakku_links": [
                 "uPHNpdNfcPVoaHL8",
