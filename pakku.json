@@ -75,6 +75,12 @@
         },
         "polymorph": {
             "side": "BOTH"
+        },
+        "create": {
+            "side": "BOTH"
+        },
+        "structure-pool-api":{
+            "side": "BOTH"
         }
     },
     "export_server_side_projects_to_client": false
