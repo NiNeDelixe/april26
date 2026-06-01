@@ -92,7 +92,8 @@
             "side":"BOTH"
         },
         "create-aero-offroad-addon-stickywheels":{
-            "side":"BOTH"
+            "side":"BOTH",
+            "redistributable": true
         }
     },
     "export_server_side_projects_to_client": false
