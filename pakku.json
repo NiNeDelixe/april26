@@ -72,7 +72,10 @@
         },
         "iris": {
             "side": "CLIENT"
+        },
+        "polymorph": {
+            "side": "BOTH"
         }
     },
-    "export_server_side_projects_to_client": true
+    "export_server_side_projects_to_client": false
 }
