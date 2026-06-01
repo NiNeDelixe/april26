@@ -4,6 +4,10 @@
 ### Changes
 - Sample Text
 
+## [1.4.0]
+### Changes
+- add mods
+
 ## [1.3.3]
 ### Changes
 - Fixed autofetch command not being automatically applied
