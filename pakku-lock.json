@@ -1905,6 +1905,7 @@
                 "KPMX3qvLESDH4J0J"
             ],
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "create-aero-offroad-addon-stickywheels"
             },
