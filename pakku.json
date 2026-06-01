@@ -81,6 +81,12 @@
         },
         "structure-pool-api":{
             "side": "BOTH"
+        },
+        "sable-(create-aeronautics)-collision-damage":{
+            "side":"BOTH"
+        },
+        "create-aeronautics-mekanism-compatibility":{
+            "side":"BOTH"
         }
     },
     "export_server_side_projects_to_client": false

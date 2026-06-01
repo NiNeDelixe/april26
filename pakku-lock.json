@@ -2100,6 +2100,7 @@
         {
             "pakku_id": "tKGa6PGzfoxFC8dZ",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "create-aeronautics-mekanism-compatibility"
             },
@@ -7780,7 +7781,7 @@
                 "wfblntGXRxaHX4gM"
             ],
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "sable-(create-aeronautics)-collision-damage"
             },
