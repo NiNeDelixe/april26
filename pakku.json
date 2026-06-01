@@ -56,7 +56,7 @@
             "export": false
         },
         "distanthorizons": {
-            "side": "CLIENT"
+            "side": "BOTH"
         },
         "server_heater": {
             "side": "SERVER"
@@ -66,7 +66,16 @@
         },
         "aero_cam_syn": {
             "side": "CLIENT"
+        },
+        "geckolib": {
+            "side": "BOTH"
+        },
+        "iris": {
+            "side": "CLIENT"
+        },
+        "polymorph": {
+            "side": "BOTH"
         }
     },
-    "export_server_side_projects_to_client": true
+    "export_server_side_projects_to_client": false
 }
