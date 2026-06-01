@@ -81,6 +81,19 @@
         },
         "structure-pool-api":{
             "side": "BOTH"
+        },
+        "sable-(create-aeronautics)-collision-damage":{
+            "side":"BOTH"
+        },
+        "create-aeronautics-mekanism-compatibility":{
+            "side":"BOTH"
+        },
+        "deployer":{
+            "side":"BOTH"
+        },
+        "create-aero-offroad-addon-stickywheels":{
+            "side":"BOTH",
+            "redistributable": true
         }
     },
     "export_server_side_projects_to_client": false
