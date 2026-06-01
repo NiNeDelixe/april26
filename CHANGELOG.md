@@ -4,6 +4,11 @@
 ### Changes
 - Sample Text
 
+## [1.4.3]
+### Changes
+- hotfix
+- add deployer
+
 ## [1.4.2]
 ### Changes
 - hotfix

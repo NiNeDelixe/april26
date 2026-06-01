@@ -2738,6 +2738,74 @@
             ]
         },
         {
+            "pakku_id": "KwVqTMB8QzBIXJFO",
+            "pakku_links": [
+                "DPfxBtfc0jwyLSpO"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "deployer",
+                "modrinth": "deployer"
+            },
+            "name": {
+                "curseforge": "Create: Deployer API",
+                "modrinth": "Create: Deployer API"
+            },
+            "id": {
+                "curseforge": "1516421",
+                "modrinth": "OZhUIuou"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "deployer-0.1.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7981/471/deployer-0.1.2.jar",
+                    "id": "7981471",
+                    "parent_id": "1516421",
+                    "hashes": {
+                        "sha1": "c3d2d9baad2e714cb8bf8ae6df9bc9cac6e87c1c",
+                        "md5": "6f7adecaebca0ecd2b85446adea4016d"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 2010014,
+                    "date_published": "2026-04-25T09:07:41.160Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "deployer-0.1.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/OZhUIuou/versions/XrLW2FiE/deployer-0.1.2.jar",
+                    "id": "XrLW2FiE",
+                    "parent_id": "OZhUIuou",
+                    "hashes": {
+                        "sha512": "1d2ad848e5342758ac6199396c53c2d43419d57337259dfea25a1477b9e7ad76578d02ec8c8eb26acbb21df5b3275d8c5fad89aad2b5a148ece4e23c65c3a517",
+                        "sha1": "c3d2d9baad2e714cb8bf8ae6df9bc9cac6e87c1c"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 2010014,
+                    "date_published": "2026-04-25T09:07:46.322676Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "MOe9NNj5PLsukVwb",
             "pakku_links": [
                 "uCug40WTt1XzBPC8",
@@ -2938,7 +3006,8 @@
             "pakku_id": "I0cqYoi6Op7XaZxn",
             "pakku_links": [
                 "uCug40WTt1XzBPC8",
-                "DPfxBtfc0jwyLSpO"
+                "DPfxBtfc0jwyLSpO",
+                "KwVqTMB8QzBIXJFO"
             ],
             "type": "MOD",
             "side": "BOTH",
